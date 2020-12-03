@@ -1,0 +1,16 @@
+{
+  "name": "course-era-project",
+  "version": "1.0.0",
+  "description": "this is the first assignment of course era",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shmaruf077",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jqeury": "0.0.1-security",
+    "popper.js": "^1.16.1"
+  }
+}
