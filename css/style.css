@@ -1,0 +1,9 @@
+
+footer{
+    background: #1ccbe641;
+}
+.row-content{
+    min-height: 300px;
+    padding: 25px 0;
+    border-bottom: 1px solid #241d3321;
+}
