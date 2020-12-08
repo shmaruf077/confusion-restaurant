@@ -1,6 +1,12 @@
-
+.jumbotron{
+    background: #905bd6;
+}
+.navbar-dark{
+    background: #6028aa;
+    font-size: 110%;
+}
 footer{
-    background: #1ccbe641;
+    background: #c294ff;
 }
 .row-content{
     min-height: 300px;
