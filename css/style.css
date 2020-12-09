@@ -1,3 +1,6 @@
+*{
+    scroll-behavior:smooth;
+}
 .jumbotron{
     background: #905bd6;
 }
@@ -12,4 +15,11 @@ footer{
     min-height: 300px;
     padding: 25px 0;
     border-bottom: 1px solid #241d3321;
+}
+.card-header,.btn-reserveTable{
+    font-size: 1.5rem;
+    background:#ecc30d;
+}
+*>a{
+    color: #6028aa;
 }
