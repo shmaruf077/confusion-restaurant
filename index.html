@@ -60,21 +60,23 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="form-group form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">remember me</label>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">remember me</label>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                         <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                      </form>
+                    </form>
                 </div>
             </div>
         </div>
@@ -90,20 +92,68 @@
                 </div>
                 <div class="col-12 col-sm d-flex justify-content-around align-items-center">
                     <img src="img/logo.png" alt="company logo" class="img-fluid">
-                    <a href="#reserveTable" class="text-white btn btn-reserveTable"
-                    data-toggle="tooltip" data-placement="bottom" data-html="true" title="or call us at <strong> this num </strong>"
-                    >Reserve a table</a>
+                    <a href="#reserveTable" class="text-white btn btn-reserveTable" data-toggle="tooltip"
+                        data-placement="bottom" data-html="true"
+                        title="or call us at <strong> this num </strong>">Reserve a table</a>
                 </div>
             </div>
         </div>
     </header>
-
     <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb bg-transparent">
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-            </ol>
-        </nav>
+        <div class="row row-content">
+            <div class="col">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/uthappizza.png" alt="uthappizza" class="d-block img-fluid">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span
+                                        class="badge badge-pill badge-secondary">$9.99</span> </h2>
+                                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with
+                                    Cerignola
+                                    olives,
+                                    ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/buffet.png" alt="uthappizza" class="d-block img-fluid">
+                            <div class="carousel-caption d-none d-md-block m-auto">
+                                <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing
+                                    appetizers,
+                                    six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for
+                                    just
+                                    $19.99 per person
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ami.jpeg" alt="uthappizza" class="d-block img-fluid">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Executive Chef <span class="badge badge-danger"> Master cheif awarded</span> </h2>
+                                <p>Award winning three-star Michelin chef with wide International experience having worked
+                                    closely with
+                                    whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
+                                    experiences. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container" id="menu">
@@ -120,7 +170,8 @@
                                 class="badge badge-pill badge-secondary">$9.99</span> </h2>
                         <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola
                             olives,
-                            ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                            ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -131,7 +182,7 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <div class="media">                    
+                <div class="media">
                     <div class="media-body">
                         <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
                         <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing
