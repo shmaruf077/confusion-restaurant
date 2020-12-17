@@ -36,11 +36,49 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contactus.html"> <i class="fa fa-address-card fa-lg"></i> Contact</a>
                     </li>
-
                 </ul>
             </div>
+            <span class="navbar-text">
+                <a href="" data-toggle="modal" data-target="#loginModal">
+                    <i class="fas fa-sign-in-alt mr-2"></i>Login
+                </a>
+            </span>
         </div>
     </nav>
+
+    <div class="modal fade" role="dialog" id="loginModal">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        Please login
+                    </h4>
+                    <button class="close" type="button" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <header class="jumbotron rounded-bottom mt-5 mb-0">
         <div class="container ">
@@ -52,7 +90,9 @@
                 </div>
                 <div class="col-12 col-sm d-flex justify-content-around align-items-center">
                     <img src="img/logo.png" alt="company logo" class="img-fluid">
-                    <a href="#reserveTable" class="text-white btn btn-reserveTable">Reserve a table</a>
+                    <a href="#reserveTable" class="text-white btn btn-reserveTable"
+                    data-toggle="tooltip" data-placement="bottom" data-html="true" title="or call us at <strong> this num </strong>"
+                    >Reserve a table</a>
                 </div>
             </div>
         </div>
@@ -113,7 +153,7 @@
                 <div class="media">
                     <img src="img/ami.jpeg" alt="owner of website" class="d-flex align-items-center mr-3 img-thumbnail">
                     <div class="media-body">
-                        <h2>Alberto Somayya</h2>
+                        <h2>Shakib H. Maruf</h2>
                         <h4>Executive Chef</h4>
                         <p>Award winning three-star Michelin chef with wide International experience having worked
                             closely with
@@ -229,6 +269,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
 </body>
 
