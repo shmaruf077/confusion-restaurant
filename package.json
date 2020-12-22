@@ -4,7 +4,8 @@
   "description": "this is the first assignment of course era",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css"
   },
   "author": "shmaruf077",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "jqeury": "0.0.1-security",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
   }
 }
